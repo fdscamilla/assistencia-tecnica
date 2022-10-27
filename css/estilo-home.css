@@ -265,7 +265,7 @@ a {
 
 /* === media === */
 
-@media (max-width: 1000px) {
+@media (max-width: 850px) {
 
     .header{
         flex-direction: column;
@@ -303,8 +303,8 @@ a {
         height: auto;
     }
 
-    iframe {
-        align-self: center;
+    .frame {
+        margin: 20px auto auto auto;
     }
     
 
