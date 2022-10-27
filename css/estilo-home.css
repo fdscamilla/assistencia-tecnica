@@ -320,8 +320,28 @@ a {
     .frame {
         margin: 20px auto auto auto;
     }
-    
-
-    
 }
 
+@media (max-width: 480px){
+    .servicos-item  {
+        padding-right: 100px;
+    }
+
+    .servicos-item {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .frame {
+        margin-bottom: 15px;
+    }
+
+    .header .menu {
+        gap: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        align-self: flex-end;
+        letter-spacing: 1px;
+    }
+}
