@@ -290,6 +290,18 @@ a {
         margin: 20px auto;
     }
 
+    .tela{ 
+        align-self: center;
+    }
+
+    .conector {
+        align-self: center;
+    }
+
+    .bateria {
+        align-self: center;
+    }    
+    
     .orcamento {
         margin: 0;
         padding: 20px;
