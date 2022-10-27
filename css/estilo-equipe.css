@@ -28,6 +28,14 @@ h1 {
     
 }
 
+h1 a {
+    font-size: 26px;
+    color:rgb(43, 42, 42);
+    font-weight: bold;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
 h2 {
     font-size: 18px;
     font-weight: bold;
@@ -89,7 +97,7 @@ a {
 /* === center === */
 .center {
     width: auto;
-    height: 800px;
+    height: auto;
     margin: 30px;
     background-color: #0077B6;
 }
@@ -162,6 +170,11 @@ a {
     line-height: 22px;
 }
 
+.footer .menu a:hover{
+    letter-spacing: 0.4px;
+
+}
+
 .footer h2 {
     color: white;
 }
@@ -189,10 +202,8 @@ a {
     flex-direction: column;
 }
 
-
-
 .frame {
-    margin: 20px 60px 20px auto;
+    margin: 20px 50px 20px auto;
 }
 
 
@@ -203,10 +214,32 @@ a {
     .header{
         flex-direction: column;
         height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header h1 {
+        margin: auto;
+    }
+
+    .header .menu {
+        margin: 15px;
+        justify-content: center;
+        gap: 30px;
     }
 
     .footer {
         flex-direction: column;
-        height:auto;
+        gap: 60px;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+
+
+    iframe {
+        align-self: center;
     }
 }   
