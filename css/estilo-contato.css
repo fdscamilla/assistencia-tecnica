@@ -302,27 +302,25 @@ span{
     }
 }
 
-@media (max-width: 460px){
-    .header h1{
-        align-self: center;
-        margin-bottom: 25px;
+@media (max-width: 1000px){
+    .header{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header h1 {
+        margin: auto;
     }
 
     .header .menu {
-        margin-right: 60px;
-        margin-left: auto;
-        margin-bottom: 20px;
-        letter-spacing: 1px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }    
-
-    .header a {
-        color: rgb(43, 42, 42);
-        text-decoration: none;
-        font-size: 14.6px;
-        font-weight: bold;
+        margin: 15px;
+        justify-content: center;
+        gap: 30px;
     }
+
 /*centro da pagina*/
     .center {
         width: 100%;
