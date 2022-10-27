@@ -72,6 +72,7 @@ a {
 
 .header h1{
     margin-bottom: 16px;
+    margin-right: 20px;
 }
 
 .header .logo {
@@ -294,6 +295,7 @@ span{
 
     .header h1{
         margin-bottom: 6px;
+        align-self: center;
     }
 
     .footer {
