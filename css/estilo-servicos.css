@@ -133,23 +133,71 @@ a {
 
 .orcamento {
     flex-direction: column;
+    margin-top: 78px;
 }
 
 form {
     width: auto;
     height: auto;
     flex-direction: column;
+    position: sticky;
     border-radius: 10px;
     margin: 30px 30px 0 60px;
-    padding: 60px;
-    background-color: rgb(238, 237, 237);
+    padding: 40px 60px;
+    background-color: white;
     box-shadow: 0 5px 15px #3c3c3c;
 }
 
-.orcamento h2 {
-    margin: 60px 60px 0 60px;
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    border: hidden;
+}
+
+#underLine{
+    border-bottom: 2px solid gray;
+}
+
+
+input::placeholder{
+    font-size: 0.95rem;
+}
+
+
+input[type="submit"]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.9 ease;
+    background: linear-gradient(to right, #0077B6, #0993dd);
+    font-size: 1rem;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to left, #0077B6, #0993dd);
+}
+
+
+.tipo-servico {
+    margin-left: 10px;
+}
+
+.orcamento span {
     font-size: 18px;
     text-align: right;
+    font-weight: bold;
+    color: rgb(43, 42, 42);
+    line-height: 18px;
+}
+
+label {
+    line-height: 26px;
+    font-size: 0.95rem;
 }
 
 
@@ -178,6 +226,11 @@ form {
     line-height: 22px;
 }
 
+.footer .menu a:hover{
+    letter-spacing: 0.4px;
+
+}
+
 .footer h2 {
     color: white;
 }
@@ -194,7 +247,6 @@ form {
 .footer .logo {
     height: 60px;
     margin: 30px 0;
-    filter: grayscale(70%);
 }
 
 .info {
@@ -206,10 +258,56 @@ form {
     flex-direction: column;
 }
 
+.frame {
+    margin: 20px 50px 20px auto;
+}
 
+.footer span {
+    font-weight: bold;
+}
+
+.footer .menu {
+    flex-direction: column;
+    margin: 30px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.footer .menu a:hover{
+    letter-spacing: 0.4px;
+
+}
+
+.footer h2 {
+    color: white;
+}
+
+.footer a {
+    margin-left: 10px;
+    color: white;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer .logo {
+    height: 60px;
+    margin: 30px 0;
+}
+
+.info {
+    flex-direction: column;
+    margin: 20px auto 20px;
+}
+
+.endereco, .contato {
+    flex-direction: column;
+}
 
 .frame {
-    margin: 20px 60px 20px auto;
+    margin: 20px 50px 20px auto;
 }
 
 
