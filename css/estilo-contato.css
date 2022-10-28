@@ -31,14 +31,6 @@ h1 {
     align-self: flex-end;
 }
 
-h1 a {
-    font-size: 26px;
-    color:rgb(43, 42, 42);
-    font-weight: bold;
-    align-self: flex-end;
-    text-decoration: none;
-}
-
 h2 {
     font-size: 18px;
     font-weight: bold;
@@ -90,7 +82,7 @@ a {
 }
 
 
-.header .menu a {
+.header a {
     color: rgb(43, 42, 42);
     text-decoration: none;
     font-size: 16px;
@@ -124,6 +116,7 @@ a {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+
 #input-field{
     position: relative;
     display: flex;
@@ -144,10 +137,11 @@ a {
     border-bottom: 2px solid gray;
 }
 
-input[type="submit"]{
+form input[type="submit"] {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 3px;
+    width: 100%;
     cursor: pointer;
     border-radius: 6px;
     transition: all 0.9 ease;
@@ -156,7 +150,7 @@ input[type="submit"]{
     color: white;
 }
 
-input[type="submit"]:hover{
+form input[type="submit"]:hover{
     letter-spacing: 0.5px;
     background: linear-gradient(to left, #0077B6, #0993dd);
 }
@@ -304,25 +298,27 @@ span{
     }
 }
 
-@media (max-width: 1000px){
-    .header{
-        flex-direction: column;
-        height: auto;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .header h1 {
-        margin: auto;
+@media (max-width: 460px){
+    .header h1{
+        align-self: center;
+        margin-bottom: 25px;
     }
 
     .header .menu {
-        margin: 15px;
-        justify-content: center;
-        gap: 30px;
-    }
+        margin-right: 60px;
+        margin-left: auto;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }    
 
+    .header a {
+        color: rgb(43, 42, 42);
+        text-decoration: none;
+        font-size: 14.6px;
+        font-weight: bold;
+    }
 /*centro da pagina*/
     .center {
         width: 100%;
