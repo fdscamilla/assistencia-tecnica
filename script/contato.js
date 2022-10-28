@@ -20,7 +20,7 @@ function enviar(){
         alert("Digite seu nome e sobre nome");
     }
     else{
-        alert("Mensagem enviada");
+        alert("Mensagem enviada, responderemos assim que possível. Agradecemos o contato.");
     }
 
 }
